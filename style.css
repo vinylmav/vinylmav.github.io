@@ -97,6 +97,15 @@ li {
   margin-bottom: 6px;
 }
 
+/* Footer */
+footer {
+  margin-top: 40px;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+  font-size: 13px;
+  color: #999;
+}
+
 /* Responsive — already works at this simplicity, but tighten padding on small screens */
 @media (max-width: 500px) {
   .container {
