@@ -1,3 +1,36 @@
+/* Fonts */
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('fonts/neuehaasgrottext-55roman-trial.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('fonts/neuehaasgrottext-56italic-trial.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('fonts/neuehaasgrottext-65medium-trial.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Neue Haas Grotesk';
+  src: url('fonts/neuehaasgrottext-75bold-trial.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Reset */
 *, *::before, *::after {
   margin: 0;
@@ -7,7 +40,7 @@
 
 /* Base */
 body {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Neue Haas Grotesk', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.6;
   color: #333;
